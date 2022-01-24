@@ -10,7 +10,7 @@ app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
 # Adding a comment to push it back to GH's forked repo
-with open("models/wine.pkl", "rb") as file:
+with open("models/wine-95.pkl", "rb") as file:
     clf = pickle.load(file)
 
 
